@@ -11,7 +11,7 @@
 		<img src="../images.admin.png" /><br/>			
 	</div>
 	<div align="center">
-	Welcome Admin Bro, <a href="Logout">Logout</a>
+	Welcome Admin Bro, <a href="./../forntend/Logout.html">Logout</a>
 	</div><br/>
 	<div align="center">
 		
