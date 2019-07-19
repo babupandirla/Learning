@@ -1,3 +1,24 @@
-.middele-header{
-	text-align:center;
+body{
+	margin:0px;
+	border:0px;	
+}
+h1{
+	text-align: Center;
+	width: 100%;
+	color: green;
+	#margin:auto;
+}
+a{
+	color:green;
+	text-decoration:none;
+}
+
+.loginlink input[type="button"]{
+	
+}
+#login-button{
+	background-color:orange;
+	font-size: 0.8em;
+	border:1px solid;
+	border-radius:5px;
 }
