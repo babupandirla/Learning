@@ -8,7 +8,7 @@
 </head>
 <body>
 	<jsp:directive.include file="Header.jsp" />
-	<div align="center">
+	<div class="content">
 		<h3>The main content:</h3>
 		<h2>New Books:</h2><br/><br/>
 		<h2>Best Selling Books:</h2><br/><br/>

@@ -1,0 +1,60 @@
+body{
+	margin:0px;
+	border:0px;
+	box-sizing: border-box;
+}
+h1{
+	text-align: Center;
+	width: 100%;
+	color: green;
+	#margin:auto;
+}
+a{
+	color:green;
+	text-decoration:none;
+}
+
+.loginlink input[type="button"]{
+	
+}
+#login-button{
+	background-color:orange;
+	font-size: 0.8em;
+	border:1px solid;
+	border-radius:5px;
+}
+.logo {	
+	margin: 0px auto;
+	#box-sizing: border-box;
+	text-align:center;
+}
+.content{
+	text-align:center;
+}
+.header{
+	#display:float;
+	display:inline-block;
+	text-align:center;
+	width:100%;
+	padding-top:10px;
+	box-sizing: border-box;
+}
+.admin-logo{
+	float:right;
+	padding:0px 0px 0px 0px;
+	width:30%;
+	Height:20%;
+	text-align:left;
+	
+}
+.middle{
+	display:flex;
+	align-items:center;
+	width:40%;
+	float:right;
+	box-sizing: border-box;
+	Height:100px;
+	text-align:center;
+	justify-content:center;
+	flex-direction:column;
+}

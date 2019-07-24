@@ -16,9 +16,9 @@
 	<hr width="60%"/>
 	<h2>Quick Actions:</h2>
 	<b>
-	<a href="Create_User">New User</a> &nbsp;
+	<a href="user_form.jsp">New User</a> &nbsp;
 	<a href="Create_Book">New Book</a> &nbsp;
-	<a href="Create_Category">New Category</a> &nbsp;
+	<a href="Category_form.jsp">New Category</a> &nbsp;
 	<a href="Create_Customer">New Customer</a> 
 	</b>
 	</div>
