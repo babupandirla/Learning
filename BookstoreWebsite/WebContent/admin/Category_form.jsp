@@ -25,7 +25,7 @@
 			<input type="hidden" name=CategoryId value="${editCategory.categoryId}"/>
 		</c:if>
 	<c:if test="${editCategory == null}">
-			<form action="create_Category" method="post" onsubmit="return validateFormInput()">
+			<form action="create_category" method="post" onsubmit="return validateFormInput()">
 		</c:if>
 	<c:if test="${errormessage!= null}">
 	<h3>${errormessage}</h3>

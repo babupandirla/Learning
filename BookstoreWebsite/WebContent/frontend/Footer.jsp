@@ -7,7 +7,7 @@
 <title>Footer</title>
 </head>
 <body>
-	<div align="center">
+	<div class="content">
 		<h4>Copyright (C) 2019 by ammulu's bookstore</h4>
 		<a href="About us">About us</a>	|
 		<a href="Contact us">Contact us</a> |
