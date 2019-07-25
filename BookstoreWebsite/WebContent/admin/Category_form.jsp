@@ -36,7 +36,7 @@
 		<td align="left"><input type="text" id="CategoryName" name="CategoryName" size="20" value="${editCategory.name}"/></td>
 	</tr>	
 	<tr>
-		<td colspan="2" align="center">
+		<td colspan="2" align="center">	
 		<input type="submit" value="save"/>
 		<input type="Button" value="Cancel" onclick="javascript:history.go(-1)" /></td>
 	</tr>

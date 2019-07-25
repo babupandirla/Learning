@@ -45,9 +45,13 @@ public class CatagoryServices {
 		redispathcer.forward(request, response);
 		}
 	public void createCategory() throws ServletException, IOException {
-		String categoryname=request.getParameter("CategeryName");
+		String categoryname=request.getParameter("CategoryName");
+		System.out.println(categoryname);
 		Category category=new Category(categoryname);
 		categorydao.create(category);
+		Integer id=category.getCategoryId();
+		String message="Category with id "+id+" created sucessfully";
+		listCategory(message);
 	}
 	public void editCategory() throws ServletException, IOException {
 		Integer categoryid=Integer.parseInt(request.getParameter("id"));

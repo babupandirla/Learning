@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.bookstore.service.CatagoryServices;
 
-@WebServlet("admin/create_category")
+@WebServlet("/admin/create_category")
 public class CreateCategory extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -21,7 +21,7 @@ public class CreateCategory extends HttpServlet {
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		CatagoryServices categoryservices= new CatagoryServices(request,response);
+		CatagoryServices categoryservices= new CatagoryServices(request,response);	
 		categoryservices.createCategory();
 	}
 

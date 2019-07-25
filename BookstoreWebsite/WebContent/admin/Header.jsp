@@ -15,7 +15,8 @@
 	<div class="middle">
 		<div>
 		Welcome Admin Bro, <a href="./../frontend/logout.html">Logout</a>
-		</div><br/>
+		</div>
+		<br>
 		<div >
 			
 			<a href="list_users">Users</a>	|
